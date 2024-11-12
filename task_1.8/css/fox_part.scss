@@ -1,0 +1,83 @@
+.fox_part {
+    margin-bottom: 120px;
+
+    display: flex;
+    flex-flow: row;
+    gap: 100px;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fox_part-marked_block {
+    position: relative;
+
+    min-width: 680px;
+    height: 400px;
+    
+    flex-basis: 50%;
+
+    border-radius: 0 6px 6px 0;
+    background-color: #FFE9D0;
+}
+
+.fox_part-picture {
+    position: absolute;
+    top: -135px;
+    right: 75px;
+}
+
+.fox_part-quote {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.quote_pic {
+    margin-top: 176px;
+    margin-bottom: 40px;
+
+    width: 50px;
+    height: 50px;
+}
+
+.quote_text {
+    margin-bottom: 25px;
+    
+    color: #0F001A;
+}
+
+.quote_author {
+    margin-bottom: 75px;
+    
+    font-size: 18px;
+}
+
+.quote_buttons {
+    align-self: flex-end;
+    display: flex;
+}
+
+.quote_button {
+    width: 80px;
+    height: 80px;
+    border: 0;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.quote_button-left {
+    border-radius: 4px 0 0 4px;
+    background: #CC5520 url(../images/btn-left.svg) no-repeat center;
+}
+
+.quote_button-right {
+    border-radius: 0 4px 4px 0;
+    background: white url(../images/btn-right.svg) no-repeat center;
+}
+
+.fox_part-dots {
+    min-width: 155px;
+    min-height: 155px;
+    background: url(../images/dots.png) no-repeat;
+}
