@@ -4,8 +4,8 @@
     padding-bottom: 100px;
 
     min-height: 768px;
-    background: linear-gradient(180deg, rgba(255,79,0,0.19791666666666663) 0%, rgba(255,107,0,0) 100%);
 
+    background: linear-gradient(180deg, rgba(255,79,0,0.19791666666666663) 0%, rgba(255,107,0,0) 100%);
     box-shadow: 0px 4px 16px rgba(75, 0, 129, 0.1);
 }
 
@@ -23,6 +23,7 @@
     display: flex;    
     justify-content: space-between;
     align-items: center;
+
     margin-bottom: 160px;
 }
 
@@ -47,18 +48,18 @@
 
 .header_content {
     padding-right: 350px;
-    // max-width: 600px;
 }
 
 .header_content-title {
-    line-height: 70px;
     margin-bottom: 14px;
+    line-height: 70px;
 }
 
 .header_content-text {
-    font-size: 20px;
-    line-height: 36px;
     margin-bottom: 60px;
+    line-height: 36px;
+
+    font-size: 20px;
 }
 
 .header_stores {
@@ -75,11 +76,11 @@
 }
 
 .header_content-pic {
-    min-width: 441px;
-
     position: absolute;
     right: 0;
     top: 80px;
+
+    min-width: 441px;
 }
 
 // HEADER CONTENT END

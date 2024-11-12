@@ -1,26 +1,23 @@
-$leading_color: #CC5520;
-
-html, body {
-    height: 100%;
-}
+html, body {height: 100%;}
 
 .container {
     height: 100%;
     max-width: 100%;
+
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 26px;
 }
 
 .wrapper {
-    padding: 0 250px;
     max-width: 1440px;
-    margin: 0 auto;
     position: relative;
+
+    padding: 0 250px;
+    margin: 0 auto;
 }
 
 .title {
     font-size: 50px;
     line-height: 70px;
 }
-
