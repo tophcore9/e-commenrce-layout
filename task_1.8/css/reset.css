@@ -127,15 +127,19 @@ html {
 
 a:focus {
     outline: thin dotted;
+    text-decoration: none;
 }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
+a,
 a:active,
 a:hover {
     outline: 0;
+    color: inherit;
+    text-decoration: none;
 }
 
 /**
