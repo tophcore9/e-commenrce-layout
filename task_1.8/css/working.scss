@@ -1,0 +1,38 @@
+.working {
+    min-height: 476px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #CC5520;
+    color: white;
+}
+
+.working_title {
+    margin: 90px 0;
+    font-size: 26px;
+}
+
+.working_items {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 100px;
+}
+
+.working_item {
+    max-width: 240px;
+}
+
+.working_item-img {
+    margin-bottom: 30px;
+}
+
+.working_item-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.working_item-img {
+    font-size: 16px;
+    line-height: 26px;
+}

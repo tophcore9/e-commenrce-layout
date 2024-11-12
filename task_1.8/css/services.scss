@@ -1,0 +1,76 @@
+.services {
+    margin-bottom: 150px;
+}
+
+.services-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 100px;
+}
+
+.services-title {
+    max-width: 450px;
+}
+
+.services_card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+
+    height: 525px;
+    max-width: 380px;
+    padding: 48px;
+
+    box-shadow: 5px 20px 50px rgba(234, 145, 39, 0.5);
+    border-radius: 10px;
+    color: #0F001A;
+    position: relative;
+    
+    // &::after {
+    //     content: '';
+    //     display: block;
+    //     width: 155px;
+    //     height: 155px;
+    //     background: url(../images/dots.png);
+    //     position: absolute;
+    //     top: -70px;
+    //     right: -70px;
+    //     z-index: -1;
+    // }
+}
+
+.services_card-receive {
+    background: url(../images/receive-card.png) no-repeat top center;
+
+    transform: translateY(calc(-50% - 50px));
+    justify-self: end;
+}
+
+.services_card-send {
+    background: url(../images/send-card.png) no-repeat top center;
+}
+
+.services_card-buy {
+    background: url(../images/buy-card.png) no-repeat top center;
+}
+
+.services_card-title {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.services_card-more {
+    width: 127px;
+    text-align: left;
+    margin-top: 52px;
+    border: 0;
+    background: url(../images/arrow.svg) no-repeat 95%;
+    padding: 0;
+    color: #CC5520;
+    
+    transition: background-position 0.1s ease-in;
+    
+    &:hover {background-position: 100%;}
+}
