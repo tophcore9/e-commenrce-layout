@@ -1,10 +1,10 @@
 .footer {
-    height: 350px;
-    background-color: #CC5520;
-    
     display: flex;
     flex-flow: column nowrap;
-    
+
+    min-height: 350px;
+    background-color: #CC5520;
+
     color: white;
 }
 
@@ -15,29 +15,49 @@
 // CONTACTS START
 
 .contacts {
-    padding: 55px 124px;
+    padding: 55px 124px 0 124px;
+
     height: 100%;
     
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
 .contacts_logo {
-    display: block;
+    margin-bottom: 50px;
+
     max-width: 127px;
     max-height: 22px;
+
+    display: block;
 }
 
 .contacts_list-title {
-    font-size: 18px;
-    padding-right: 8px;
-    width: fit-content;
     border-bottom: 2px solid white;
+    padding-right: 8px;
+
+    width: fit-content;
+
+    font-size: 18px;    
+}
+
+.contacts_list {
+    margin-bottom: 30px;
 }
 
 .contacts_list-item {
     margin-top: 20px;
+    width: fit-content;
+    box-sizing: border-box;
+    
+    &:hover {
+        margin-top: 18px;
+        border-bottom: 2px solid white;
+    }
 }
+
+
 
 // Subscribe start
 
@@ -59,13 +79,20 @@
 .subscribe_button, .subscribe_email {
     height: 50px;
     background-color: white;
-    border: 0;
     border-radius: 3px;
+    border: 0;
 }
 
 .subscribe_button {
     width: 100%;
     color: #CC5520;
+    transition: color 0.4s ease-out, background-color 0.4s ease-out;
+    
+    &:hover {
+        border: 1px solid white;
+        background-color: #CC5520;
+        color: white;
+    }
 }
 
 .subscribe_email {
@@ -77,6 +104,7 @@
 }
 
 // Subscribe end
+
 
 
 // CONTACTS END

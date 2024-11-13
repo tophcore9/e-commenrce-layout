@@ -1,34 +1,47 @@
 .footer {
-  height: 350px;
-  background-color: #CC5520;
   display: flex;
   flex-flow: column nowrap;
+  min-height: 350px;
+  background-color: #CC5520;
   color: white;
 }
 
 .contacts {
-  padding: 55px 124px;
+  padding: 55px 124px 0 124px;
   height: 100%;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
 .contacts_logo {
-  display: block;
+  margin-bottom: 50px;
   max-width: 127px;
   max-height: 22px;
+  display: block;
 }
 
 .contacts_list-title {
-  font-size: 18px;
+  border-bottom: 2px solid white;
   padding-right: 8px;
   width: -moz-fit-content;
   width: fit-content;
-  border-bottom: 2px solid white;
+  font-size: 18px;
+}
+
+.contacts_list {
+  margin-bottom: 30px;
 }
 
 .contacts_list-item {
   margin-top: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.contacts_list-item:hover {
+  margin-top: 18px;
+  border-bottom: 2px solid white;
 }
 
 .contacts_subscribe {
@@ -48,13 +61,19 @@
 .subscribe_button, .subscribe_email {
   height: 50px;
   background-color: white;
-  border: 0;
   border-radius: 3px;
+  border: 0;
 }
 
 .subscribe_button {
   width: 100%;
   color: #CC5520;
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+}
+.subscribe_button:hover {
+  border: 1px solid white;
+  background-color: #CC5520;
+  color: white;
 }
 
 .subscribe_email {
