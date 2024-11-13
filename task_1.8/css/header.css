@@ -7,15 +7,15 @@
   box-shadow: 0px 4px 16px rgba(75, 0, 129, 0.1);
 }
 
-.nav_logo {
-  max-width: 130px;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 160px;
+}
+
+.nav_logo {
+  max-width: 130px;
 }
 
 .nav_menu {
@@ -39,7 +39,9 @@
 }
 
 .header_content {
-  padding-right: 350px;
+  margin-right: 400px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header_content-title {
@@ -57,5 +59,7 @@
   position: absolute;
   right: 0;
   top: 80px;
-  min-width: 441px;
+  width: 441px;
+  height: 535px;
+  margin-bottom: 27px;
 }/*# sourceMappingURL=header.css.map */

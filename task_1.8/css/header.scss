@@ -15,16 +15,16 @@
 
 // NAV START
 
-.nav_logo {
-    max-width: 130px;
-}
-
 .nav {
     display: flex;    
     justify-content: space-between;
     align-items: center;
 
     margin-bottom: 160px;
+}
+
+.nav_logo {
+    max-width: 130px;
 }
 
 .nav_menu {
@@ -36,13 +36,13 @@
 
 .nav_item {
     transition: transform 0.1s ease-out;
-    
+
     &:hover {transform: scale(1.1);}
 }
 
 .nav_home {
     color: #CC5520;
-    
+
     &:hover {color: #CC5520;}
 }
 
@@ -55,7 +55,10 @@
 // HEADER CONTENT START
 
 .header_content {
-    padding-right: 350px;
+    margin-right: 400px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .header_content-title {
@@ -75,7 +78,9 @@
     right: 0;
     top: 80px;
 
-    min-width: 441px;
+    width: 441px;
+    height: 535px;
+    margin-bottom: 27px;
 }
 
 // HEADER CONTENT END

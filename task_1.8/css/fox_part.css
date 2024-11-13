@@ -9,7 +9,6 @@
 
 .fox_part-marked_block {
   position: relative;
-  min-width: 680px;
   height: 400px;
   flex-basis: 50%;
   border-radius: 0 6px 6px 0;
@@ -74,7 +73,7 @@
 }
 
 .fox_part-dots {
-  min-width: 155px;
+  width: 25%;
   min-height: 155px;
-  background: url(../images/dots.png) no-repeat;
+  background: url(../images/dots.png) no-repeat right;
 }/*# sourceMappingURL=fox_part.css.map */
