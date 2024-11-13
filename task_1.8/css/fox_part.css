@@ -23,6 +23,7 @@
 }
 
 .fox_part-quote {
+  max-width: 420px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;

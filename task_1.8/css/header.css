@@ -43,22 +43,6 @@
   font-size: 20px;
 }
 
-.header_stores {
-  display: flex;
-  gap: 20px;
-}
-.header_stores > a:first-child {
-  background: url(../images/google-play.png) no-repeat;
-}
-.header_stores > a:last-child {
-  background: url(../images/app-store.png) no-repeat;
-}
-
-.header_stores-item {
-  width: 180px;
-  height: 60px;
-}
-
 .header_content-pic {
   position: absolute;
   right: 0;

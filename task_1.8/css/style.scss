@@ -21,3 +21,16 @@ html, body {height: 100%;}
     font-size: 50px;
     line-height: 70px;
 }
+
+.stores {
+    display: flex;
+    gap: 20px;
+
+    &>a:first-child {background: url(../images/google-play.png) no-repeat;}
+    &>a:last-child  {background: url(../images/app-store.png) no-repeat;}
+}
+
+.stores-item {
+    width: 180px;
+    height: 60px;
+}

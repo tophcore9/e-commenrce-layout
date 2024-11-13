@@ -1,0 +1,35 @@
+.download {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.download_phones-pic {
+    display: block;
+    max-width: 516px;
+}
+
+.download_content {
+    max-width: 450px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_content-title {
+    margin-bottom: 13px;
+
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.download_content-text {
+    margin-bottom: 55px;
+
+    color: #0F001A;
+    text-align: center;
+}
