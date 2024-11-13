@@ -26,8 +26,16 @@ html, body {height: 100%;}
     display: flex;
     gap: 20px;
 
-    &>a:first-child {background: url(../images/google-play.png) no-repeat;}
-    &>a:last-child  {background: url(../images/app-store.png) no-repeat;}
+    &>a:first-child {
+        background: url(../images/google-play.png) no-repeat;
+        transition: transform 0.5s ease;
+        &:hover {transform: scale(1.1);}
+    }
+    &>a:last-child {
+        background: url(../images/app-store.png) no-repeat;
+        transition: transform 0.5s ease;
+        &:hover {transform: scale(1.1);}
+    }
 }
 
 .stores-item {

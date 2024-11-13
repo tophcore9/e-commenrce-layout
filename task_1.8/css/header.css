@@ -24,7 +24,17 @@
   font-size: 18px;
 }
 
+.nav_item {
+  transition: transform 0.1s ease-out;
+}
+.nav_item:hover {
+  transform: scale(1.1);
+}
+
 .nav_home {
+  color: #CC5520;
+}
+.nav_home:hover {
   color: #CC5520;
 }
 

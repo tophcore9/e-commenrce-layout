@@ -28,9 +28,17 @@ html, body {
 }
 .stores > a:first-child {
   background: url(../images/google-play.png) no-repeat;
+  transition: transform 0.5s ease;
+}
+.stores > a:first-child:hover {
+  transform: scale(1.1);
 }
 .stores > a:last-child {
   background: url(../images/app-store.png) no-repeat;
+  transition: transform 0.5s ease;
+}
+.stores > a:last-child:hover {
+  transform: scale(1.1);
 }
 
 .stores-item {
