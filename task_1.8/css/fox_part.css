@@ -1,10 +1,17 @@
 .fox_part {
   margin-bottom: 120px;
+  position: relative;
   display: flex;
   flex-flow: row;
   gap: 100px;
   justify-content: space-between;
   align-items: center;
+}
+
+.fox_part-title {
+  position: absolute;
+  top: 0;
+  right: 30%;
 }
 
 .fox_part-marked_block {
@@ -22,11 +29,12 @@
 }
 
 .fox_part-quote {
+  padding-bottom: 70px;
   max-width: 420px;
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding-bottom: 70px;
 }
 
 .quote_pic {

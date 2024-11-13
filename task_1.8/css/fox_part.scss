@@ -1,5 +1,7 @@
 .fox_part {
     margin-bottom: 120px;
+    
+    position: relative;
 
     display: flex;
     flex-flow: row;
@@ -9,10 +11,15 @@
     align-items: center;
 }
 
+.fox_part-title {
+    position: absolute;
+    top: 0;
+    right: 30%;
+}
+
 .fox_part-marked_block {
     position: relative;
 
-    // min-width: 680px;
     height: 400px;
     
     flex-basis: 50%;
@@ -28,11 +35,15 @@
 }
 
 .fox_part-quote {
+    padding-bottom: 70px;
+
     max-width: 420px;
+
+    position: relative;
+
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-bottom: 70px;
 }
 
 .quote_pic {

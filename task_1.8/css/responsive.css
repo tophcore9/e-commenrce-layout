@@ -6,6 +6,9 @@
     width: 355px;
     height: 430px;
   }
+  .fox_part-title {
+    right: 5%;
+  }
   .fox_part-picture {
     width: 221px;
     height: 253px;
@@ -44,6 +47,30 @@
   .header, .download, .services, .fox_part, .working {
     margin-bottom: 40px;
   }
+  .fox_part {
+    flex-direction: column;
+  }
+  .fox_part-picture {
+    position: static;
+    margin-top: -100px;
+  }
+  .fox_part-title {
+    position: static;
+  }
+  .fox_part-marked_block {
+    width: 100%;
+    max-height: 210px;
+    display: flex;
+    justify-content: center;
+  }
+  .quote_pic {
+    margin: 0;
+    width: 115px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+    left: 0px;
+  }
   .services-grid {
     grid-template-columns: 100%;
     gap: 40px;
@@ -72,5 +99,37 @@
   }
   .nav_menu {
     gap: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .nav {
+    margin-bottom: 80px;
+  }
+  .nav::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/burger-arrow.png) no-repeat center;
+  }
+  .nav_menu {
+    display: none;
+  }
+  .download_phones-pic {
+    width: 355px;
+  }
+  .fox_part-quote {
+    padding: 10px;
+  }
+  .quote_author {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 435px) {
+  .wrapper {
+    padding: 10px;
+  }
+  .nav {
+    padding: 0 20px;
   }
 }/*# sourceMappingURL=responsive.css.map */
