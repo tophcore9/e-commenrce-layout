@@ -66,6 +66,7 @@
 }
 
 .subscribe_button {
+  margin-bottom: 32px;
   width: 100%;
   color: #CC5520;
   transition: color 0.4s ease-out, background-color 0.4s ease-out;
@@ -90,8 +91,10 @@
   padding: 0 124px;
   min-height: 60px;
   display: flex;
+  flex-flow: row wrap-reverse;
   align-items: center;
   justify-content: space-between;
+  gap: 50px;
   border-top: 1px solid white;
   background-color: #CC5520;
 }

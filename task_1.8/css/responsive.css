@@ -124,6 +124,52 @@
   .quote_author {
     margin-bottom: 0px;
   }
+  .contacts {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe_form {
+    flex-direction: column;
+  }
+  .contacts_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contacts_list-title {
+    font-size: 28px;
+    line-height: 33px;
+    padding-right: 0;
+  }
+  .contacts_list-item, .subscribe_title {
+    width: 100%;
+    text-align: center;
+  }
+  .subscribe_email {
+    padding-left: 40px;
+  }
+  .footer_network {
+    min-height: 26px;
+    max-width: 36px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .copyright {
+    justify-content: center;
+    align-items: center;
+    border: 0;
+  }
+  .copyright_networks {
+    width: 100%;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+    padding-bottom: 32px;
+  }
+  .copyright_text {
+    margin: -30px 0 20px 0;
+  }
 }
 @media (max-width: 435px) {
   .wrapper {
