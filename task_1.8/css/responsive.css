@@ -157,6 +157,7 @@
        object-fit: cover;
   }
   .copyright {
+    padding: 0;
     justify-content: center;
     align-items: center;
     border: 0;
@@ -177,5 +178,17 @@
   }
   .nav {
     padding: 0 20px;
+  }
+}
+@media (max-width: 400px) {
+  .stores-item {
+    width: 168px;
+    height: 56px;
+  }
+  .stores > a:first-child {
+    background: url(../images/google-play-responsive.png);
+  }
+  .stores > a:last-child {
+    background: url(../images/app-store-responsive.png);
   }
 }/*# sourceMappingURL=responsive.css.map */
