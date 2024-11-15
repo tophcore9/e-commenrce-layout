@@ -10,7 +10,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 160px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .nav_item {
-  transition: transform 0.1s ease-out;
+  transition: transform 0.1s ease-out, opacity 0.5s ease-out, background-color 0.5s ease;
 }
 .nav_item:hover {
   transform: scale(1.1);
@@ -36,6 +36,11 @@
 }
 .nav_home:hover {
   color: #CC5520;
+}
+
+.menu_opener {
+  display: none;
+  transition: transform 0.5s ease-out;
 }
 
 .header_content {

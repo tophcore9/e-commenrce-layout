@@ -44,4 +44,17 @@ html, body {
 .stores-item {
   width: 180px;
   height: 60px;
+}
+
+.burger_menu-blur {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 2;
+  transition: top 0.5s ease-out, opacity 0.5s ease-out;
 }/*# sourceMappingURL=style.css.map */

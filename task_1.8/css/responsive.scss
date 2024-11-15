@@ -108,19 +108,31 @@
 }
 
 @media (max-width: 550px) {
+    .header {
+        padding-top: 100px;
+    }
     .nav {
+        height: 70px;
         margin-bottom: 80px;
-        
-        &::after {
-            content: '';
-            display: block;
-            width: 25px;
-            height: 25px;
-            background: url(../images/burger-arrow.png) no-repeat center;
-        }
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        z-index: 3;
+        background-color: rgba(255, 255, 255, 0.9);
+        transition: height 0.5s ease-out;
+    }
+    .nav_item:active, .nav_item:focus {
+        color: white;
+        background-color: #CC5520;
+    }
+    .menu_opener {
+        display: block;
     }
     .nav_menu {
-        display: none;
+        opacity: 0;
+        transition: opacity 0.5s ease-out;
     }
     .download_phones-pic {
         width: 355px;
@@ -182,9 +194,6 @@
 @media (max-width: 435px) {
     .wrapper {
         padding: 10px;
-    }
-    .nav {
-        padding: 0 20px;
     }
 }
 
