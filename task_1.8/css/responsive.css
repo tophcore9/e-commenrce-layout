@@ -223,6 +223,9 @@
 .sliding-nav {
   height: 290px;
 }
+.sliding-nav .menu_opener {
+  transform: rotate(180deg);
+}
 .sliding-nav::after {
   content: "";
   display: block;

@@ -236,6 +236,10 @@
 .sliding-nav {
     height: 290px;
     
+    .menu_opener {
+        transform: rotate(180deg);
+    }
+    
     &::after {
         content: '';
         display: block;
@@ -252,10 +256,6 @@
 }
 
 @keyframes sliding {
-    0% {
-        top: 60px;
-    }
-    100% {
-        top: 290px;
-    }
+    0%   {top: 60px;}
+    100% {top: 290px;}
 }
