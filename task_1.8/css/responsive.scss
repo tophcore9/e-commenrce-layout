@@ -122,6 +122,13 @@
         z-index: 3;
         background-color: rgba(255, 255, 255, 0.9);
         transition: height 0.5s ease-out;
+        
+        &::after {
+            content: '';
+            position: fixed;
+            opacity: 0;
+            transition: opacity 1s ease-out;
+        }
     }
     .nav_item:active, .nav_item:focus {
         color: white;
@@ -234,6 +241,8 @@
 
 .sliding-nav {
     height: 290px;
+    background-color: white;
+    z-index: 3;
     
     .menu_opener {
         transform: rotate(180deg);
@@ -250,7 +259,6 @@
         background-color: black;
         opacity: 0.9;
         animation: sliding 0.5s ease-out;
-        transition: all 0.5s ease-out;
     }
 }
 
