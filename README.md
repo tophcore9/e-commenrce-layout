@@ -6,6 +6,12 @@ This is a front-end layout for an e-commerce website, built using modern web tec
 
 ## 🚀 Getting Started
 
+### Preview
+
+https://tophcore9.github.io/e-commenrce-layout
+
+https://github.com/user-attachments/assets/96dd85a9-3554-482e-87b9-8fd2b83e5c2a
+
 ### Installation
 
 1.  **Clone the repository:**
